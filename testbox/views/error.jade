@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h1= message
+	h2= error.status
+	pre #{error.stack}
+	script.
+		AP.require('request', function(request){
+			request({
+				url: '/rest/api/2/project',
+				success: function(responseText){
+					alert(responseText);
+				}
+			});
+		});

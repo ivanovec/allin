@@ -1,0 +1,30 @@
+{
+     "name": "TestBox",
+     "description": "Excellent container for tests!",
+     "key": "com.ivanovec.testbox",
+     "baseUrl": "http://127.0.0.1:3000",
+     "vendor": {
+         "name": "vnvc no Enc.",
+         "url": "http://ivanovec.tk"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "version": "1.0",
+     "modules": {
+         "generalPages": [
+			{
+				"conditions":[
+					{
+						"condition":"/api/visibility"
+					}
+				],
+                "url": "/",
+                "key": "testbox",
+                "name": {
+                    "value": "TestBox"
+                }
+            }
+        ]
+     }
+ }

@@ -1,0 +1,44 @@
+
+<section id="content" role="main">
+<!-- Page Header must go inside #content before .aui-page-panel -->
+
+    <header class="aui-page-header">
+        <div class="aui-page-header-inner">
+            <div class="aui-page-header-main">
+                <h1>Page Title</h1>
+            </div>
+<div class="aui-tabs horizontal-tabs" id="tabs-example1">
+        <ul class="tabs-menu">
+            <li class="menu-item active-tab">
+                <a href="#tabs-example-first"><strong>Designers</strong></a>
+            </li>
+            <li class="menu-item">
+                <a href="#tabs-example-second"><strong>Developers</strong></a>
+            </li>
+            <li class="menu-item">
+                <a href="#tabs-example-third"><strong>PMs</strong></a>
+            </li>
+        </ul>
+        <div class="tabs-pane active-pane" id="tabs-example-first">
+            <h3>Designers</h3>
+        </div>
+        <div class="tabs-pane" id="tabs-example-second">
+            <h3>Developers</h3>
+        </div>
+        <div class="tabs-pane" id="tabs-example-third">
+            <h3>Product management</h3>
+        </div>
+</div><!-- .aui-tabs -->
+        </div>
+    </header>
+
+<!-- Page Header must go inside #content before .aui-page-panel -->
+    <div class="aui-page-panel">
+        <div class="aui-page-panel-inner">
+            <section class="aui-page-panel-content">
+                <p>Page contents.</p>
+            </section>
+        </div>
+    </div>
+</section>
+

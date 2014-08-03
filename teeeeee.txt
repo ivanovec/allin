@@ -1,0 +1,15 @@
+	header.aui-page-header
+		div.aui-page-header-inner
+			div.aui-page-header-main:h1 Page Title
+			div.aui-page-header-actions
+				div(class='aui-tabs horizontal-tabs'):ul.tabs-menu
+					li.(class='menu-item active-tab')
+						a(href='#tabs-example-first'):strong Designers
+					li.menu-item
+						a(href='#tabs-example-second'):strong Developers
+					li.menu-item
+						a(href='#tabs-example-third'):strong PMs
+	div.aui-page-panel:div.aui-page-panel-inner:section.aui-page-panel-content
+		div#tabs-example-first(class='tabs-pane active-pane')
+		div#tabs-example-second.tabs-pane
+		div#tabs-example-third.tabs-pane
